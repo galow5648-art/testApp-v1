@@ -23,6 +23,8 @@ public class DemoApplication {
 				Flight f1 = new Flight();
 				f1.setFlightNumber("SU-101");
 				f1.setDeparture("Москва");
+
+
 				f1.setDestination("Сочи");
 				f1.setFlightDate(LocalDateTime.now().plusDays(1));
 				f1.setTotalSeats(180);
